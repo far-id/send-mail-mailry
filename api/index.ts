@@ -10,6 +10,7 @@ app.get("/", (req, res) => res.send("Express on Vercel"));
 
 // Route sederhana untuk hit Mailry API
 app.get("/email", async (req, res) => {
+  console.log(MAILRY_TOKEN);
   try {
     const response = await axios.get("https://api.mailry.co/ext/email", {
       headers: {
