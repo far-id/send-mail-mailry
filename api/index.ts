@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-require("dotenv").config();
 const axios = require("axios");
 
 const MAILRY_TOKEN = process.env.MAILRY_TOKEN;
