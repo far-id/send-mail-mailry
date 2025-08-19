@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+require("dotenv").config();
 const axios = require("axios");
 
 const MAILRY_TOKEN = process.env.MAILRY_TOKEN;
@@ -15,6 +16,8 @@ app.get("/email", async (req, res) => {
       headers: {
         Authorization: MAILRY_TOKEN,
         "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        Connection: "keep-alive"
       },
     });
 
