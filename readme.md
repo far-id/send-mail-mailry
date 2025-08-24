@@ -1,4 +1,4 @@
-[# 🇮🇩 Daily Commit
+# 🇮🇩 Daily Commit
 
 **Daily Commit** adalah project iseng tapi serius yang tugasnya ngecek aktivitas commit kamu di GitHub setiap hari, lalu ngirimin email berupa motivasi atau pujian.  
 Bedanya, semua pesan diwarnai dengan **semangat kemerdekaan Indonesia**.  
